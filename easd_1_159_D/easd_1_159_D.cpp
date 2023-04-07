@@ -43,5 +43,8 @@ void Display() {
 
 void Display() {
 	cout << "data setelah diurutkan: ";
+	for (int i = 0; i < n; i++) {
+		cout << ghofiq[i] << " ";
+	}
 }
 
