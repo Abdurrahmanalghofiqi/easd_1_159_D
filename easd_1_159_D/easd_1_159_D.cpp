@@ -35,6 +35,9 @@ void Display() {
 				min_index = i;
 			}
 		}
+		if (min_index = AA) {
+			swap(ghofiq[AA], ghofiq[min_index]);
+		}
 	}
 }
 
