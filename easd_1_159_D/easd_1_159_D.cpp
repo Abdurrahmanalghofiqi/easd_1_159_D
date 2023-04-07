@@ -27,5 +27,16 @@ void input() {
 	}
 }
 
+void Display() {
+	for (int AA = 0; AA < n - 1; AA++) {
+		int min_index = AA;
+		for (int i = AA + 1; i < n; i++) {
+			if (ghofiq[i] < ghofiq[min_index]) {
+				min_index = i;
+			}
+		}
+	}
+}
+
 
 
