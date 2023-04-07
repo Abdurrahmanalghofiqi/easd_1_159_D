@@ -9,5 +9,9 @@
 #include <iostream> 
 using namespace std;
 
+const int MAX_DATA = 59 + 20;
+int data[MAX_DATA];
+int n;
+
 
 
