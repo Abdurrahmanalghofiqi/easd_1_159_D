@@ -10,8 +10,22 @@
 using namespace std;
 
 const int MAX_DATA = 59 + 20;
-int data[MAX_DATA];
+int ghofiq[MAX_DATA];
 int n;
+
+void input() {
+	cout << "masukkan jumlah data (makimum " << MAX_DATA << "): ";
+	cin >> n;
+
+	if (n > MAX_DATA) {
+		cout << "jumlah data melebihi maksimum" << endl;
+		exit(1);
+	}
+	cout << "masukkan " << n << " ghofiq: " << endl;
+	for (int i = 0; i < n; i++) {
+		cin >> ghofiq[i];
+	}
+}
 
 
 
