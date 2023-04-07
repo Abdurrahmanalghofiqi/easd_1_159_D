@@ -41,5 +41,7 @@ void Display() {
 	}
 }
 
-
+void Display() {
+	cout << "data setelah diurutkan: ";
+}
 
