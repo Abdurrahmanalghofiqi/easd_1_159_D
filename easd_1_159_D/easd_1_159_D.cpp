@@ -27,7 +27,7 @@ void input() {
 	}
 }
 
-void Display() {
+void selectionsort() {
 	for (int AA = 0; AA < n - 1; AA++) {
 		int min_index = AA;
 		for (int i = AA + 1; i < n; i++) {
@@ -48,5 +48,13 @@ void Display() {
 		cout << ghofiq[i] << " ";
 	}
 	cout << endl;
+}
+
+int main() {
+	input();
+	selectionsort();
+	Display();
+	return 0;
+
 }
 
