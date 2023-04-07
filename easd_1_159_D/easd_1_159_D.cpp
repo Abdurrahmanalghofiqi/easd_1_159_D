@@ -38,6 +38,7 @@ void Display() {
 		if (min_index = AA) {
 			swap(ghofiq[AA], ghofiq[min_index]);
 		}
+		cout << endl;
 	}
 }
 
@@ -46,5 +47,6 @@ void Display() {
 	for (int i = 0; i < n; i++) {
 		cout << ghofiq[i] << " ";
 	}
+	cout << endl;
 }
 
